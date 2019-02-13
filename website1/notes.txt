@@ -1,0 +1,7 @@
+When choosing between include and require :
+Use include when you want the site to keep on running even tough the included file is not found
+Use require when you want your app to crash if file not found
+
+require_once : identical to require, except that php will check if it has already been included, if so, it won't include it again.
+
+include('in/heander/php'); : you can add parenthesis, if you want to use a function format
